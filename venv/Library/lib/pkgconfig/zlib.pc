@@ -1,0 +1,13 @@
+prefix=E:/DS Projects/Resume Analyser/venv/Library
+exec_prefix=E:/DS Projects/Resume Analyser/venv/Library
+libdir=E:/DS Projects/Resume Analyser/venv/Library/lib
+sharedlibdir=E:/DS Projects/Resume Analyser/venv/Library/lib
+includedir=E:/DS Projects/Resume Analyser/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
